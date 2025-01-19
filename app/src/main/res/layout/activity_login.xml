@@ -13,9 +13,9 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
-        <!-- Logo -->
 
-        <!-- Email Input -->
+
+
 
         <ImageView
             android:id="@+id/imageView2"

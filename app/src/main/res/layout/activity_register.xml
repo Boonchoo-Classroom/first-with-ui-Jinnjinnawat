@@ -37,7 +37,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="48dp" />
-
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="228dp"
@@ -65,7 +64,6 @@
             app:layout_constraintHorizontal_bias="0.455"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="181dp" />
-
         <EditText
             android:id="@+id/editTextPhone"
             android:layout_width="230dp"
@@ -77,7 +75,6 @@
             app:layout_constraintHorizontal_bias="0.455"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="246dp" />
-
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="228dp"
@@ -89,7 +86,6 @@
             app:layout_constraintHorizontal_bias="0.455"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="304dp" />
-
         <EditText
             android:id="@+id/editTextTextPassword2"
             android:layout_width="223dp"

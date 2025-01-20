@@ -21,10 +21,6 @@ class LoginActivity : AppCompatActivity() {
             insets
         }
 
-        backToMainBtn = findViewById(R.id.loginBackToMainBtn)
 
-        backToMainBtn.setOnClickListener() {
-            finish()
-        }
     }
 }

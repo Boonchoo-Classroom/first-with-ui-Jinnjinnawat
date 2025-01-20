@@ -1,5 +1,6 @@
 package scisrc.mobiledev.firstuiassignment
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -11,6 +12,7 @@ class RegisterActivity : AppCompatActivity() {
 
     lateinit var backToMainPageBtn: Button
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -21,10 +23,5 @@ class RegisterActivity : AppCompatActivity() {
             insets
         }
 
-        backToMainPageBtn = findViewById(R.id.registBackToMainBtn)
-
-        backToMainPageBtn.setOnClickListener() {
-            finish()
-        }
     }
 }
